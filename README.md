@@ -43,7 +43,7 @@ For those interested in understanding how the Arabic letters classification mode
 Feel free to experiment with different architectures, hyperparameters, or datasets to improve the model's accuracy or adapt it to your specific use case. Remember to update the API with the new trained model if you achieve better results.
 ## Model WEIGHTS 
 - https://drive.google.com/drive/folders/1x3CFRf90V6FbI-L0ayx5FhDv6U_ltNm8?usp=sharing
--Kindly Download Model Weights from above link and put it in (./api/src/static)
+-Kindly Download Model Weights from above link and put it in [static](./api/src/static)
 ## Development
 
 ### Prerequisites
