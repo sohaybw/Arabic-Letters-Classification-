@@ -8,7 +8,7 @@ This API is designed to classify Arabic letters provided in image format. It uti
 - [FastAPI Arabicletters](#fastapi-arabic_letters_classifier)
   - [Table of content](#table-of-content)
   - [Overview](#overview)
-  -[Model Training](#Model-Training)
+  - [Model Training](#Model-Training)
   - [Development](#development)
     - [Prerequisites](#prerequisites)
     - [Configuration](#configuration)
