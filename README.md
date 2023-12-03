@@ -5,7 +5,7 @@ This API is designed to classify Arabic letters provided in image format. It uti
 
 ## Table of content
 
-- [FastAPI boilerplate](#fastapi-arabic_letters_classifier)
+- [FastAPI Arabicletters](#fastapi-arabic_letters_classifier)
   - [Table of content](#table-of-content)
   - [Overview](#overview)
   - [Development](#development)
@@ -24,7 +24,25 @@ This API is designed to classify Arabic letters provided in image format. It uti
 
 The goal of this API is to provide a simple yet effective method to classify Arabic letters found in images. It serves as a convenient tool for developers and researchers working on projects involving Arabic character recognition or classification.
 
+## Model Training
 
+For those interested in understanding how the Arabic letters classification model was trained, a Jupyter notebook is provided in the `model_training` directory. Follow the steps below to utilize the notebook:
+
+### Model Training Notebook
+
+- Navigate to the (./api/src/notebooks) directory.
+- Open the `Arabic_Letters_Classification_Model_Training.ipynb` notebook using Jupyter or any compatible environment.
+- The notebook provides detailed steps for:
+  - Data pre-processing.
+  - Model architecture selection and setup.
+  - Training the model on the Arabic letters dataset.
+  - Evaluating the model's performance.
+  - Saving the trained model weights.
+
+Feel free to experiment with different architectures, hyperparameters, or datasets to improve the model's accuracy or adapt it to your specific use case. Remember to update the API with the new trained model if you achieve better results.
+## Model WEIGHTS 
+-
+-Kindly Download Model Weights from above link and put it in (./api/src/static)
 ## Development
 
 ### Prerequisites
